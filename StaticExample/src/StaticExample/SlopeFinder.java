@@ -1,7 +1,7 @@
 package StaticExample;
 
 public class SlopeFinder {
-	public static double findSlope(int y2 , int y1 , int x2 , int x1) {
+	public static double find(double y2 , double y1 , double x2 , double x1) {
 		double slope = (y2 - y1)/(x2 - x1);
 		return slope;
 	}
